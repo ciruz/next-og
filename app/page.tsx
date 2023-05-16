@@ -1,4 +1,12 @@
 import Image from 'next/image'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "A Title",
+  icons:{
+    icon: ["/images/test.svg"],
+  }
+}
 
 export default function Home() {
   return (
